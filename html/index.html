@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body style="display: none;">
+		<div class="departments">
+		    <button style="width: 30%;" onclick="changedept1()" class="bcso">BCSO</button>
+		    <button style="width: 30%;" onclick="changedept2()" class="gw">LCSO</button>
+		    <button style="width: 30%;" onclick="changedept3()" class="sast">SAST</button>
+			<button style="width: 30%;" onclick="changedept4()" class="lspd">LSPD</button>
+			<button style="width: 30%;" onclick="changedept5()" class="lspa">SAFR</button>
+	    </div>
+		<div class="eup">
+		    <div class="title">
+			    <img class="img" src="logo.png">
+				<br>
+			    <text id="title">EUP Uniform Name</text>
+			<div>
+			<br>
+			<div class="buttons">
+			    <div>
+			        <button style="width: 25%; border-top-left-radius: 15px;" onclick="prev()">Previous</button>
+			        <button style="width: 25%; border-top-right-radius: 15px;" onclick="next()">Next</button>
+			    </div>
+				<br>
+				<button style="width: 50%;" onclick="choose()">Choose</button>
+		    </div>
+		</div>
+	</body>
+	<script src="main.js" type="text/javascript"></script>
+</html>
